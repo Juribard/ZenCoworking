@@ -1,0 +1,180 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: FFF9E9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #518000;
+    text-align: center;
+}
+
+/*Menu*/
+nav {
+    background-color: #518000;
+    padding: 0px 5px 0px 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Menu {
+    color: white;
+}
+ul {
+    display: flex;
+    list-style-type:none;
+}
+li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bouton {
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+/*contenue*/
+.contenue {
+    background-color: #FFB400;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    padding-bottom: -0px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.contenue_art {
+    background-color: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    background-color: #FFB400;
+    padding: 0px 5px 0px 5px;
+}
+figure {
+    background-color: gray;
+}
+img {
+    margin-right: 0%;
+    width: 400px;
+}
+
+/*affiche article*/
+.News {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.article {
+    border: solid black;
+    padding: 0px 5px 0px 5px;
+    margin: 10px;
+}
+.hypertext_soulign {
+    text-decoration: none;
+}
+.art_title {
+    display: flex;
+    justify-content: center;
+}
+.table_case {
+    border: solid black;
+}
+.texte_color_article {
+    color: black;
+    margin-top: 1px;
+}
+
+/*footer*/
+footer {
+    background-color: #518000;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.contact {
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.foot_contact {
+    display: flex;
+    justify-content: space-around;
+}
+.foot_page {
+    display: flex;
+    justify-content: center;
+}
+.Re_sociaux {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+}
+.ecart_logo {
+    padding: 0px 5px 15px 5px;
+}
+.logo_sociaux {
+    color: white;
+}
+
+/*Responsive*/
+@media screen and (max-width: 400px){
+    .left {
+        width: auto;
+    }
+    .banderole {
+        display: flex;
+        justify-content: center;
+    }
+    nav {
+        background-color: #518000;
+        padding: 0px 0px 0px 0px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max_width: 1130px){
+    .contenue_art {
+        background-color: none;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
